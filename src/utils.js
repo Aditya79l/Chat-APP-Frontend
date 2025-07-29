@@ -1,3 +1,3 @@
 // utils.js
-const apiURL = "http://localhost:7000";
+const apiURL = import.meta.env.VITE_API_URL;
 export default apiURL;
